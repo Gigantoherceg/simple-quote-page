@@ -1,11 +1,18 @@
-background-image: url(assets/freedome.jpg) #FFF;
+body {
+    background: url(assets/freedom.jpg) #FFF;
+    background-size: cover;
+}
 
 #sentense, #name {
     text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
 }
 
 #sentense {
     font-family: sans-serif;
+    font-size: 1.65rem;
 }
 
 #name {
