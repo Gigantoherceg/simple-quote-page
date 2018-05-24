@@ -1,5 +1,5 @@
 body {
-    background: url(assets/freedom.jpg) #FFF;
+    background: url(assets/freedom.jpg) #FFF no-repeat center center fixed;
     background-size: cover;
 }
 
