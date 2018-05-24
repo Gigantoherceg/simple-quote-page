@@ -1,0 +1,13 @@
+background-image: url(assets/freedome.jpg) #FFF;
+
+#sentense, #name {
+    text-align: center;
+}
+
+#sentense {
+    font-family: sans-serif;
+}
+
+#name {
+    font-style: italic;
+}
