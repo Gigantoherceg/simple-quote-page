@@ -1,13 +1,14 @@
 body {
     background: url(assets/freedom.jpg) #FFF no-repeat center center fixed;
     background-size: cover;
+    padding: 0;
+    margin: 0;
 }
 
 #sentense, #name {
     text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2rem;
+    padding: 2rem;
+    margin: 2rem;
 }
 
 #sentense {
@@ -16,5 +17,21 @@ body {
 }
 
 #name {
+    padding-top: 3rem;
     font-style: italic;
+}
+
+@media (max-width: 600px) {
+    
+    #sentense {
+    font-size: 0.8rem;
+        }
+ 
+    #name {
+            font-size: 0.5rem;
+        }
+    #sentense, #name {
+        padding: 1rem;
+        margin: 0;
+    }
 }
